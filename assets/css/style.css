@@ -1,0 +1,671 @@
+/*-------------------- common property------------------------------ */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+    --black: #000000;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+/*------------------ common property--------------------------------- */
+
+/*-------------------------- nav start here ---------------------------------------------*/
+nav ul li a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    padding: 18px 20px !important;
+    position: relative;
+}
+
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    visibility: visible;
+    width: 100%;
+}
+
+nav .navbar-toggler {
+    padding: 0 !important;
+    border-radius: none;
+    border: 0;
+    outline: 0;
+}
+
+/*------------------------ -------nav ends here----------------------------------------- */
+
+/*--------------------------- banner start here--------------------------------------- */
+
+#hero h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+
+}
+
+#hero h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+
+#hero p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#hero .icon a {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    text-decoration: none;
+    /* color: #fff; */
+    display: inline-block;
+}
+
+#hero .icon a:nth-child(1) {
+    background-color: #FFCC00;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 0;
+    align-items: center;
+    padding: 15px 40px;
+    margin-right: 32px;
+    border-radius: 20px;
+}
+
+#hero .icon a:nth-child(2) {
+    /* background-color: #FFCC00; */
+    border: 2px solid black;
+    color: #353535;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 0;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+#hero {
+    padding-top: 77px;
+}
+
+#hero .follow h6 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+    margin-right: 32px;
+    display: inline;
+}
+
+#hero .follow {
+    margin-top: 66px;
+    line-height: 0;
+    bottom: 0;
+}
+
+/*--------------------------- banner ends here--------------------------------------- */
+
+/*----------------------------- about start here-------------------------------------- */
+
+#about {
+    background: linear-gradient(to right, #FFCC00, #FAFFCB, #FAFFCB);
+    margin-top: 136px;
+}
+
+/* ellips part er jnno */
+#about .container {
+    position: relative;
+}
+
+#about .container .about-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* ellips part er jnno */
+
+
+#about h6 {
+
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+
+}
+
+#about p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#about .see a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid var(--black);
+    border-radius: 20px;
+    padding: 17px 43px;
+}
+
+#about .see a:hover {
+    background-color: #FFCC00;
+}
+
+#about .content {
+    padding-top: 76px;
+}
+
+/*----------------------------- about ends here-------------------------------------- */
+
+/* ----------------------------add section start here---------------------------------- */
+#add {
+    margin-top: 146px;
+    text-align: center;
+}
+
+#add .add-card {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 47px;
+    border-radius: 20px;
+    width: calc(33.33% - 32px);
+    margin: 0px 16px;
+    margin-top: 42px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#add .add-card:hover {
+    transform: scale(1.02);
+}
+
+#add .add-card img {
+    padding-bottom: 18px;
+}
+
+#add .add-card h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+}
+
+#add .add-card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+
+}
+
+
+/* ----------------------------add section end here---------------------------------- */
+
+/*-------------------------------- branding section start here------------------------ */
+#branding .container {
+    background: linear-gradient(to right, #FFCC00, #FFF5CB);
+    border-radius: 30px;
+}
+
+#branding {
+    margin-top: 165px;
+    position: relative;
+}
+
+#branding .branding-footer {
+    position: absolute;
+    top: -33px;
+    right: 64px;
+}
+
+#branding .branding-footer1 {
+    position: absolute;
+    bottom: 130px;
+    right: 315px;
+}
+
+#branding .branding-content {
+    margin-top: 83px;
+}
+
+#branding h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+}
+
+#branding p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    padding-right: 65px;
+    padding-bottom: 35px;
+}
+
+
+#branding .see a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid var(--black);
+    border-radius: 20px;
+    padding: 17px 43px;
+}
+
+#branding .see a:hover {
+    background-color: #FFCC00;
+}
+
+
+
+/*-------------------------------- branding section ends here------------------------ */
+
+
+/*-------------------------------- help section start here ---------------------------*/
+#help {
+    margin-top: 147px;
+}
+
+#help .help-first h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+
+}
+
+#help .help-first p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#help .help-first .row {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+
+
+#help .help-scnd h3 {
+
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535;
+
+}
+
+#help .help-scnd p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;
+}
+
+#help .help-scnd-1 h3 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
+
+}
+
+#help .help-scnd-1 p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#help .row .icon-1 {
+    background-color: #55852F;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+#help .row .icon-2 {
+    background-color: #FEDC2A;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+#help .row .icon-3 {
+    background-color: #FF8D3A;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+/*-------------------------------- help section ends here ---------------------------*/
+
+/*-------------------------------- work section starts here ---------------------------*/
+
+#work {
+    margin-top: 150px;
+}
+
+#work .heading h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    padding-bottom: 70px;
+}
+
+#work .row h4 {
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+
+}
+
+#work .row p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    padding-bottom: 56px;
+}
+
+#work .title {
+    position: relative;
+}
+
+#work .title::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #52AB70;
+    border-radius: 50%;
+    right: -88px;
+    top: -18px;
+    z-index: 1;
+}
+
+#work .title::after {
+    content: '';
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: 1px dashed #7A7A7A;
+    border-radius: 50%;
+    right: -99px;
+    top: -30px;
+    background-color: #fff;
+}
+
+#work .row .timeline::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    border-right: 1px dashed #7A7A7A;
+    top: -29px;
+    right: -79px;
+}
+
+#work .parent .row:nth-child(3n+1) .title::before {
+    background-color: #52AB70;
+}
+
+#work .parent .row:nth-child(3n+2) .title::before {
+    background-color: #F17676;
+}
+
+#work .parent .row:nth-child(3n+3) .title::before {
+    background-color: #FFD233;
+}
+
+
+/*-------------------------------- work section ends here ---------------------------*/
+
+/*-------------------------------- expert section starts here ---------------------------*/
+
+#expert {
+    margin-top: 200px;
+}
+
+#expert h2 {
+
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 49px;
+
+}
+
+#expert p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #7a7a7a;
+}
+
+#expert .icon {
+    /* border: 2px solid black; */
+    display: inline-flex;
+    justify-content: center;
+    line-height: 0;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #FFCC00;
+    margin-top: 39px;
+}
+
+#expert .icon a {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+
+}
+
+#expert .skills a {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+
+}
+
+#expert .skills{
+    padding-left: 25px;
+
+}
+
+#expert .skills a:nth-child(1) {
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    border: 2px solid black;
+    padding: 15px 65px;
+    border-radius: 20px;
+    margin-right: 72px;
+}
+
+#expert .skills a:nth-child(2) {
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    /* border: 2px solid black; */
+}
+
+
+
+#expert .skill-container li{
+    list-style-type: none;
+    margin: 50px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#expert .skill-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: rgb(170,167,173);
+    width: 100%;
+    height: 25px;
+    border-radius: 1000px;
+}
+
+#expert .skill-container li::after{
+
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: rgb(249,249,250);
+    width: 0;
+    height: 25px;
+    border-radius: 1000px;
+    
+    animation-duration: 3s;
+   animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+}
+
+#expert .skill-container li.Figma::after{
+    animation-name: Figma;
+}
+
+@keyframes Figma{
+    to{
+        width: 90%;
+        background: #f16500;
+    }
+
+    
+}
+
+#expert .skill-container li.Photoshop::after{
+    animation-name: Photoshop;
+}
+
+@keyframes Photoshop{
+    to{
+        width: 75%;
+        background: #03249b;
+    }
+
+    
+}
+
+
+#expert .skill-container li.XD::after{
+    animation-name: XD;
+}
+
+@keyframes XD{
+    to{
+        width: 80%;
+        background: #700d60;
+    }
+
+    
+}
+
+
+#expert .skill-container li.Illustrator::after{
+    animation-name: Illustrator;
+}
+
+@keyframes Illustrator{
+    to{
+        width: 70%;
+        background: #234bda;
+    }
+
+    
+}
+
+
+
+
+/*-------------------------------- expert section ends here ---------------------------*/

@@ -1,0 +1,184 @@
+@media (max-width: 991.98px) { 
+
+ 
+
+ /*--------------- nav start here --------------------------------*/
+
+ #nav{
+    padding: 25px 0 !important;
+}
+
+#nav ul li a{
+    display:inline;
+    padding: 15px 0;
+}
+
+.offcanvas-body .navbar-nav li a:hover{
+                 background-color: gold;
+                 display: inline;
+                border: 2px solid black;
+}
+ /*------------------ nav start here----------------- */
+
+ /*------------------------- banner start here------------------------------ */
+ #hero .icon a:nth-child(1){
+    margin-bottom: 5px;
+    margin-right: 0px;
+}
+
+#hero #banner{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#hero h4 {
+    font-size: 40px;
+    
+}
+
+#hero .follow {
+    margin-top: 32px;}
+ /*------------------------- banner end here------------------------------ */
+
+
+  /*--------------------------------- about start here-------------------------------- */
+
+  #about{
+    text-align: center;
+    margin-top: 80px;
+    
+  }
+
+  #about .content{
+    padding-top: 60px;
+    z-index: 1;
+}
+
+#about .container .about-footer{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#about .container .about-footer img{
+    transform: rotate(180deg);
+}
+ 
+  /*--------------------------------- about ends here-------------------------------- */
+
+  /*---------------------------- add section start here------------------------------ */
+
+  #add {
+    margin-top: 50px;
+    text-align: center;
+}
+
+  #add .add-card {
+    width: 100%;
+    margin: 0;
+}
+  /*---------------------------- add section start here------------------------------ */
+
+  /* ----------------------------branding section start here-------------------------- */
+
+  #branding .branding-footer1{
+    display: none;
+  }
+
+  #branding {
+    margin-top: 105px;
+
+  
+}
+
+#branding .branding-content{
+    margin-top: 66px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+#branding .see a{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+   /* ----------------------------branding section ends here-------------------------- */
+
+      /* ----------------------------help section starts here-------------------------- */
+
+      #help .help-first{
+        padding: 0px 30px;
+      }
+
+      #help .help-scnd{
+        padding: 0px 30px;
+      }
+
+      #help {
+        margin-top: 90px;
+    }
+
+        /* ----------------------------help section end here-------------------------- */
+
+           /* ----------------------------Work section starts here-------------------------- */
+
+           #work .title::before {
+           
+            left: 22px;
+        top: -11px;
+    }
+
+    #work .title::after {
+      left: 11px;
+    top: -23px;
+  }
+
+  #work .row .title p{
+    padding-bottom: 0;
+  }
+
+
+  #work .row p,#work .row h4{
+    padding-left: 50px;
+  }
+
+  
+#work .row .timeline::before {
+  display: none;
+}
+
+#work .parent{
+  position: relative;
+}
+
+#work .parent::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  border: 1px dashed #7A7A7A ;
+  
+  left: 18px;
+  top: 0;
+}
+
+         /* ----------------------------Work section ends here-------------------------- */
+
+         /* ----------------------------Expert section starts here-------------------------- */
+
+         #expert .icon {
+          margin-bottom: 8px;
+      }
+
+      #expert {
+        margin-left: 30px;
+      }
+         /* ----------------------------Expert section ends here-------------------------- */
+
+
+
+          
+        }
+
+       
+
